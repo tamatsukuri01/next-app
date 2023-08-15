@@ -1,8 +1,9 @@
 import Layout from "../components/Layout";
-export default function Home() {
+import Auth from "../components/Auth";
+export default function Login() {
   return (
-    <Layout title="Home">
-      <p className="text-4xl">nextjs</p>
+    <Layout title="Login">
+      <Auth />
     </Layout>
   );
 }
