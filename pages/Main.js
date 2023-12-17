@@ -14,11 +14,11 @@ const Main = () => {
   return (
     <Layout title="Main">
       <div className="mb-10">
-        <Link href="Blog">
+        {/* <Link href="Blog">
           <a className="bg-indigo-500 mr-8 hover:bg-indigo-600 text-white px-4 py-12 rounded">
             Visit Blog by SSG + ISR
           </a>
-        </Link>
+        </Link> */}
         <Link href="Task-page">
           <a className="bg-indigo-500 mr-8 hover:bg-indigo-600 text-white px-4 py-12 rounded">
             Visit Task by ISR + CSR

@@ -7,7 +7,7 @@ export default function Layout({ children, title = "HP by Next.js" }) {
       <Head>
         <title>{title}</title>
       </Head>
-      <header>
+      {/* <header>
         <nav className="bg-gray-800 w-screen">
           <div className="flex items-center pl-8 h-14">
             <div className="flex space-x-4">
@@ -29,7 +29,7 @@ export default function Layout({ children, title = "HP by Next.js" }) {
             </div>
           </div>
         </nav>
-      </header>
+      </header> */}
       <main className="flex flex-1 justify-center items-center flex-col w-screen">
         {children}
       </main>
